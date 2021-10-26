@@ -91,5 +91,3 @@ Image('number_in_green_rounded_square_clip_art.jpg',width=250,height=250)
 img = load_image('istockphoto-174800594-170667a.jpg')
 digit = model.predict(img)
 print('Predicted value:',np.argmax(digit))
-
-https://github.com/akshat3110/Handwritten-Digit-Recognition.git
